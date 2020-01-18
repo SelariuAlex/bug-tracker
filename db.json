@@ -1,0 +1,30 @@
+{
+  "logs": [
+    {
+      "id": 1,
+      "message": "Fix navbar",
+      "attention": false,
+      "date": "18-01-2020",
+      "tech": "Selariu Alex"
+    },
+    {
+      "id": 2,
+      "message": "Add search",
+      "attention": true,
+      "date": "19-01-2020",
+      "tech": "Bogdan Pop"
+    }
+  ],
+  "techs": [
+    {
+      "id": 1,
+      "firstName": "Alex",
+      "lastName": "Selariu"
+    },
+    {
+      "id": 2,
+      "firstName": "Bogdan",
+      "lastName": "Pop"
+    }
+  ]
+}
