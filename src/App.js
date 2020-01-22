@@ -5,6 +5,7 @@ import { SearchBar } from "./components/layout/SearchBar";
 import { AddBtn } from "./components/layout/AddBtn";
 import { Logs } from "./components/logs/Logs";
 import { AddLogModal } from "./components/logs/AddLogModal";
+import { EditLogModal } from "./components/logs/EditLogModal";
 import "./App.css";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <div className="container">
         <AddBtn />
         <AddLogModal />
+        <EditLogModal />
         <Logs />
       </div>
     </>
