@@ -1,18 +1,25 @@
 {
   "logs": [
     {
-      "message": "load logs",
-      "attention": false,
+      "message": "Add Redux to app",
+      "attention": true,
       "tech": "Bogdan Pop",
-      "date": "2020-01-26T09:42:20.233Z",
+      "date": "2020-01-26T11:57:46.090Z",
       "id": 1
     },
     {
-      "message": "connect redux to app",
-      "attention": true,
+      "message": "Get logs",
+      "attention": false,
       "tech": "Selariu Alex",
-      "date": "2020-01-26T09:42:35.964Z",
+      "date": "2020-01-26T11:58:05.124Z",
       "id": 2
+    },
+    {
+      "message": "Add logs",
+      "attention": false,
+      "tech": "Bogdan Pop",
+      "date": "2020-01-26T11:58:17.603Z",
+      "id": 3
     }
   ],
   "techs": [

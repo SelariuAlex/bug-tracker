@@ -1,8 +1,15 @@
 import React from "react";
 import PropTypes from "prop-types";
 import Moment from "react-moment";
+import { connect } from "react-redux";
+import { deleteLog } from "../../redux/actions/logActions";
+import M from "materialize-css/dist/js/materialize.min.js";
 
-const LogItem = ({ log }) => {
+const LogItem = ({ log, deleteLog }) => {
+  const onDeleteLog = () => {
+    deleteLog(log.id);
+    M.toast({ html: "Log deleted" });
+  };
   return (
     <li className="collection-item">
       <div>
@@ -22,7 +29,7 @@ const LogItem = ({ log }) => {
             {log.tech}
           </span> on <Moment format="MMMM Do YYYY, h:mm:ss a"></Moment>
         </span>
-        <a href="#!" className="secondary-content">
+        <a href="#!" className="secondary-content" onClick={onDeleteLog}>
           <i className="material-icons grey-text">delete</i>
         </a>
       </div>
@@ -34,4 +41,4 @@ LogItem.propTypes = {
   log: PropTypes.object.isRequired
 };
 
-export default LogItem;
+export default connect(null, { deleteLog })(LogItem);
