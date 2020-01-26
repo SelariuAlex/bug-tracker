@@ -1,18 +1,18 @@
 {
   "logs": [
     {
-      "id": 1,
-      "message": "Fix navbar",
+      "message": "load logs",
       "attention": false,
-      "date": "18-01-2020",
-      "tech": "Selariu Alex"
+      "tech": "Bogdan Pop",
+      "date": "2020-01-26T09:42:20.233Z",
+      "id": 1
     },
     {
-      "id": 2,
-      "message": "Add search",
+      "message": "connect redux to app",
       "attention": true,
-      "date": "19-01-2020",
-      "tech": "Bogdan Pop"
+      "tech": "Selariu Alex",
+      "date": "2020-01-26T09:42:35.964Z",
+      "id": 2
     }
   ],
   "techs": [
