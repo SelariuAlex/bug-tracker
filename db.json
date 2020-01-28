@@ -8,11 +8,11 @@
       "id": 1
     },
     {
-      "message": "Get logs",
+      "id": 2,
+      "message": "Get logs done",
       "attention": false,
       "tech": "Selariu Alex",
-      "date": "2020-01-26T11:58:05.124Z",
-      "id": 2
+      "date": "2020-01-28T10:34:21.223Z"
     },
     {
       "message": "Add logs",

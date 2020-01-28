@@ -5,7 +5,7 @@ import { SearchBar } from "./components/layout/SearchBar";
 import { AddBtn } from "./components/layout/AddBtn";
 import Logs from "./components/logs/Logs";
 import AddLogModal from "./components/logs/AddLogModal";
-import { EditLogModal } from "./components/logs/EditLogModal";
+import EditLogModal from "./components/logs/EditLogModal";
 import { AddTechModal } from "./components/techs/AddTechModal";
 import { TechListModal } from "./components/techs/TechListModal";
 

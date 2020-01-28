@@ -30,11 +30,17 @@ export default (state = initialState, action) => {
         logs: [...state.logs, action.payload],
         loading: false
       };
+    case DELETE_LOG:
+      return {
+        ...state,
+        logs: state.logs.filter(log => log.id !== action.payload),
+        loading: false
+      };
     case UPDATE_LOG:
       return {
         ...state,
-        logs: state.logs.filter(log =>
-          log.id !== action.payload.id ? action.payload : log
+        logs: state.logs.map(log =>
+          log.id === action.payload.id ? action.payload : log
         )
       };
     case SET_LOADING:
@@ -51,12 +57,6 @@ export default (state = initialState, action) => {
       return {
         ...state,
         current: null
-      };
-    case DELETE_LOG:
-      return {
-        ...state,
-        logs: state.logs.filter(log => log.id !== action.payload),
-        loading: false
       };
     case LOGS_ERROR:
       console.error(action.payload);
