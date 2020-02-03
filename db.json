@@ -32,6 +32,16 @@
       "id": 2,
       "firstName": "Bogdan",
       "lastName": "Pop"
+    },
+    {
+      "firstName": "Marina",
+      "lastName": "Adriana",
+      "id": 3
+    },
+    {
+      "firstName": "Flavius",
+      "lastName": "Buruian",
+      "id": 4
     }
   ]
 }
