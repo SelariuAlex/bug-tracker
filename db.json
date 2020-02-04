@@ -20,28 +20,30 @@
       "tech": "Bogdan Pop",
       "date": "2020-01-26T11:58:17.603Z",
       "id": 3
+    },
+    {
+      "message": "Add delete tech",
+      "attention": false,
+      "tech": "Marina Adriana",
+      "date": "2020-02-04T19:37:00.870Z",
+      "id": 4
     }
   ],
   "techs": [
     {
-      "id": 1,
-      "firstName": "Alex",
-      "lastName": "Selariu"
+      "firstName": "Alexandru",
+      "lastName": "Selariu",
+      "id": 1
     },
     {
-      "id": 2,
       "firstName": "Bogdan",
-      "lastName": "Pop"
+      "lastName": "Pop",
+      "id": 2
     },
     {
       "firstName": "Marina",
       "lastName": "Adriana",
       "id": 3
-    },
-    {
-      "firstName": "Flavius",
-      "lastName": "Buruian",
-      "id": 4
     }
   ]
 }

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import { connect } from "react-redux";
 import { getTechs } from "../../redux/actions/techActions";
 import TechItem from "./TechItem";
@@ -6,7 +6,7 @@ import TechItem from "./TechItem";
 const TechListModal = ({ tech: { techs, loading }, getTechs }) => {
   useEffect(() => {
     getTechs();
-  }, []);
+  }, [getTechs]);
 
   return (
     <div id="tech-list-modal" className="modal">
